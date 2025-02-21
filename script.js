@@ -22,8 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     listItem.appendChild(deleteButton); 
                 }
             });
-            listItem.appendChild(editButton);
-            listItem.appendChild(deleteButton);
             todoList.appendChild(listItem);
             todoInput.value = ''; 
         }
